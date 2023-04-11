@@ -1,35 +1,42 @@
-*{
+* {
     margin: 0px;
-padding:0px;
-box-sizing: border-box;}
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 header {
-    padding:0;
+    padding: 0;
     background-color: rgba(0, 61, 41, 0.727);
     color: rgb(249, 249, 255);
 }
 
-header h1, section h2, section h3, form button
-{font-family: 'Roboto', sans-serif;}
+header h1,
+section h2,
+section h3,
+form button {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
 
-body{
-    font-family: 'Raleway', sans-serif;}
+body {
+    font-family: 'Raleway', sans-serif;
+}
 
 
-header h1{
-    display:none}
-    /*só para deixar apenas o logo*/
+header h1 {
+    display: none
+}/*só para deixar apenas o logo*/
 
 header nav li {
     display: inline;
     margin-left: 16px;
-color:azure;
-font-size:24px;
+    color: azure;
+    font-size: 24px;
 }
 
 header nav li a {
-color:rgb(207, 245, 245);
-text-decoration: none;
+    color: rgb(207, 245, 245);
+    text-decoration: none;
 }
 
 .container {
@@ -38,36 +45,49 @@ text-decoration: none;
     margin: 0, auto;
 }
 
-header .container, 
+header .container,
 section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#logb {width: 20%}
-#imgbandana {height: 500px;}
+#logb {
+    width: 20%
+}
+
+#imgbandana {
+    height: 500px;
+}
 
 .icons-list img {
     height: 24px;
 }
 
-.icons-list li{
+.icons-list li {
     display: inline;
     margin-right: 8px;
     margin-top: 24px;
+    text-decoration: none;
+}
+.icons-list li a{
+    text-decoration: none;
 }
 
 section .container {
     align-items: flex-start;
     margin-top: 42px;
 }
+
 section {
     padding: 24px0;
 }
+
 section h2 {
-    margin-bottom: 24px;}
-    section{
+    margin-bottom: 24px;
+}
+
+section {
     color: rgba(0, 61, 41, 0.727);
 
 }
@@ -78,33 +98,30 @@ section p {
 
 section #imgbandana {
     margin-right: 36px;
-    margin-left: 36px ;
+    margin-left: 36px;
     margin-top: 8px;
 }
 
-
-
-#contato .container {
-    display: block;
+.formas-de-contato {
+    display: flex;
+    justify-content: space-between;
+    padding:24px;
+    
 }
 
-.formas-de-contato {
-    display:flex;
-    justify-content: space-between;
-} 
 
 form input,
 form textarea,
 form button {
-    display:block;
-    width:320px;
+    display: block;
+    width: 320px;
     margin-bottom: 8px;
     padding: 8px;
 }
 
-form textarea{
-    resize:none;
-    height:180px;
+form textarea {
+    resize: none;
+    height: 180px;
 }
 
 section h3 {
@@ -113,15 +130,20 @@ section h3 {
 
 form button {
     background-color: rgb(14, 99, 71);
-    color:aliceblue;
-    border:none;
-    cursor:pointer;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
 }
 
 form button:hover {
-    background-color: aqua;}
+    background-color: aqua;
+}
 
-    input:focus, textarea:focus {
-        outline-color:#182c61}
-    
+input:focus,
+textarea:focus {
+    outline-color: #182c61
+}
 
+#contato {
+    padding-top: 24px;  
+}
